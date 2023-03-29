@@ -15,7 +15,7 @@ $jobs = Job::getAllJobs();
                 <li>
                     <h2><?php echo $job->getTitle(); ?></h2>
                     <p><?php echo $job->getLocation(); ?></p>
-                    <a href="jobdetails.php?id=<?php echo $job->getId(); ?>">View Details</a>
+                    <a class="view-job" href="jobdetails.php?id=<?php echo $job->getId(); ?>">View Details</a>
                 </li>
             <?php endforeach;?>
         </ul>

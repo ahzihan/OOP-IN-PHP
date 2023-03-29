@@ -69,6 +69,13 @@ nav a:hover {
 .job p {
   margin-bottom: 10px;
 }
+.view-job{
+  background-color: rgb(1, 94, 1);
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+}
 
 .job .apply {
   margin-top: 10px;
@@ -143,12 +150,12 @@ margin-bottom: 20px;
 }
 
 .apply-button {
-background-color: #007bff;
+background-color: green;
 color: #fff;
 border: none;
 cursor: pointer;
 }
 
 .apply-button:hover {
-background-color: #0056b3;
+background-color: rgb(1, 94, 1);
 }
