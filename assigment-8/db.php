@@ -1,3 +1,3 @@
 <?php
 
-$con = new mysqli("localhost", "root", "", "db_user");
+$con = new Mysqli("localhost", "root", "", "db_user");
